@@ -816,3 +816,27 @@ footer {
         scroll-margin-top: 12px;
     }
 }
+/* Smooth scrolling for the entire website */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Keep section headings clear of the navbar */
+#home,
+#about,
+#skills,
+#projects,
+#contact {
+    scroll-margin-top: 100px;
+}
+
+/* Mobile adjustment */
+@media (max-width: 600px) {
+    #home,
+    #about,
+    #skills,
+    #projects,
+    #contact {
+        scroll-margin-top: 12px;
+    }
+}
